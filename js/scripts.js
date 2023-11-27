@@ -16,10 +16,10 @@ $(document).ready(function () {
         $(".walrus-showing").fadeToggle();
         $(".walrus-hidden").fadeToggle();
     });
-    // $("p").click(function () {
-    //     $(".walrus-showing").slideDown();
-    //     $(".walrus-hidden").slideDown();
-    // });
+    $("p").click(function () {
+        $(".walrus-showing").slideDown();
+        $(".walrus-hidden").slideDown();
+    });
     // $("p").click(function () {
     //     $(".walrus-showing").slideUp();
     //     $(".walrus-hidden").slideUp();
