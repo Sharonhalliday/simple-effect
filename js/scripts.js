@@ -7,10 +7,10 @@ $(document).ready(function () {
         $(".walrus-showing").fadeIn();
         $(".walrus-hidden").fadeIn();
     });
-    //  $("p").click(function () {
-    //     $(".walrus-showing").fadeOut();
-    //     $(".walrus-hidden").fadeOut();
-    // });
+     $("p").click(function () {
+        $(".walrus-showing").fadeOut();
+        $(".walrus-hidden").fadeOut();
+    });
     // $("p").click(function () {
     //     $(".walrus-showing").fadeToggle();
     //     $(".walrus-hidden").fadeToggle();
