@@ -11,10 +11,11 @@ $(document).ready(function () {
         $(".walrus-showing").fadeOut();
         $(".walrus-hidden").fadeOut();
     });
-    // $("p").click(function () {
-    //     $(".walrus-showing").fadeToggle();
-    //     $(".walrus-hidden").fadeToggle();
-    // });
+    
+    $("p").click(function () {
+        $(".walrus-showing").fadeToggle();
+        $(".walrus-hidden").fadeToggle();
+    });
     // $("p").click(function () {
     //     $(".walrus-showing").slideDown();
     //     $(".walrus-hidden").slideDown();
@@ -27,4 +28,5 @@ $(document).ready(function () {
     //     $(".walrus-showing").slideToggle();
     //     $(".walrus-hidden").slideToggle();
     //   });
-});
+    })
+            
